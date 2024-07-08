@@ -1,0 +1,9 @@
+function [masofa,kordinat]=tekis_vek(x0,y0,z0,cos_f, k)
+%masofa=((k(1)*x0+k(2)*y0+k(3)*z0+k(4))/sqrt(((k(1))^2)+((k(2))^2)+((k(3))^2)));
+%masofa=((k(1)*x0+k(2)*y0+k(3)*z0-k(4))/(((k(1))*cos_f(1))+((k(2))*cos_f(2))+((k(3))*cos_f(3))));
+masofa=((k(4)-k(1)*x0-k(2)*y0-k(3)*z0)/((k(1)*cos_f(1)+k(2)*cos_f(2)+k(3)*cos_f(3))));
+%masofa=abs(mas);
+x=x0+masofa*cos_f(1);
+y=y0+masofa*cos_f(2);
+z=z0+masofa*cos_f(3);
+kordinat=[x y z];
