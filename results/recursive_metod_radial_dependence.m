@@ -7,10 +7,10 @@
 
 %--------------------Ce: Nd: YAG-------------------------------------------------
 
-% load('qayta_trap_2.5_optical_engineering.mat')
-% load('qayta_hexagon_2.5_optical_engineering.mat')
-% load('qayta_s_par_optical_engineering.mat')
-load('qayta_d_par_optical_engineering.mat')
+% load('qayta_trap_2.5_optical_engineering.mat'); 
+% load('qayta_hexagon_2.5_optical_engineering.mat'); 
+% load('qayta_s_par_optical_engineering.mat'); 
+load('qayta_d_par_optical_engineering.mat'); 
 
 
 %--------------------------------------------------------------------------
@@ -20,10 +20,8 @@ load('qayta_d_par_optical_engineering.mat')
 % 
 % load('qayta_d_par_rad_3.mat')
 % load('qayta_d_par_rad_3.5.mat')
-pump_efficiency=eff
-% pump_efficiency=0.702
-% fgvhbj
-% zdxcfvgbh
+pump_efficiency=1.03*eff;
+
 quantum_yeald_ce = 0.8;
 % eff
 % pump_efficiency=eff; %for Nd_KGW (3 %)
